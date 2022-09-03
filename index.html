@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script src="js/index.js" defer></script>
+    <title>Calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="calculator calculator-theme1">
+        <div class="top-section">
+          <h2 class="calc">calc</h2>
+        </div>
+        <div class="screen-section">
+          <input type="text" class="calculator-screen" maxlength="5" disabled>
+        </div>
+        <div class="button-section">
+          <button type="button" value="7" class="numbers">7</button>
+          <button type="button" value="8" class="numbers">8</button>
+          <button type="button" value="9" class="numbers">9</button>
+          <button type="button" value="" class="clear" >DEL</button>
+          <button type="button" value="4" class="numbers">4</button>
+          <button type="button" value="5" class="numbers">5</button>
+          <button type="button" value="6" class="numbers">6</button>
+          <button type="button" value="+" class="operator" id="add">+</button>
+          <button type="button" value="1" class="numbers">1</button>
+          <button type="button" value="2" class="numbers">2</button>
+          <button type="button" value="3" class="numbers">3</button>
+          <button type="button" value="-" class="operator" id="subtract">-</button>
+          <button type="button" value="." class="numbers">.</button>
+          <button type="button" value="0" class="numbers">0</button>
+          <button type="button" value="/" class="operator" id="divide">/</button>
+          <button type="button" value="*" class="operator multiply">X</button>
+          <button type="reset" class="reset">RESET</button>
+          <button type="button" value="=" class="operator equals">=</button>
+        </div>
+      </div>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >.        Coded by
+      <a href="https://github.com/ibroshima" target="_blank">Ibrahim</a>.
+    </footer>
+  </body>
+</html>
